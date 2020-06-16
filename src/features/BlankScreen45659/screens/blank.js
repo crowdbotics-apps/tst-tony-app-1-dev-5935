@@ -44,6 +44,18 @@ export class _Blank extends React.Component {
           borderStyle: "solid"
         }}
       />
+      <Textarea
+        placeholder="Text input placeholder"
+        editable={true}
+        value=""
+        editableName="Textarea2"
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
     </View>
   )
 }
