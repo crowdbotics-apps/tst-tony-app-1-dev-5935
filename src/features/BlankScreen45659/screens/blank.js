@@ -56,6 +56,19 @@ export class _Blank extends React.Component {
           borderStyle: "solid"
         }}
       />
+      <Text
+        input
+        placeholder="Text input placeholder"
+        editable={true}
+        value=""
+        editableName="Text input3"
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
     </View>
   )
 }
