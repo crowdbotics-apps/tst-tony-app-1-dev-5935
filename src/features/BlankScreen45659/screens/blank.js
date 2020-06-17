@@ -20,7 +20,6 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View
-      editableName="View1"
       style={{
         overflow: "visible",
         textAlign: "left",
@@ -33,43 +32,7 @@ export class _Blank extends React.Component {
         borderStyle: "solid",
         backgroundSize: "auto"
       }}
-    >
-      <Image
-        resizeMethod="cover"
-        editableName="Image2"
-        style={{
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderStyle: "solid"
-        }}
-      />
-      <Textarea
-        placeholder="Text input placeholder"
-        editable={true}
-        value=""
-        editableName="Textarea2"
-        style={{
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderStyle: "solid"
-        }}
-      />
-      <Text
-        input
-        placeholder="Text input placeholder"
-        editable={true}
-        value=""
-        editableName="Text input3"
-        style={{
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderStyle: "solid"
-        }}
-      />
-    </View>
+    />
   )
 }
 
