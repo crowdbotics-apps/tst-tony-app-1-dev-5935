@@ -44,6 +44,20 @@ export class _Blank extends React.Component {
           borderStyle: "solid"
         }}
       />
+      <Slider
+        value="50"
+        minimumValue="0"
+        maximumValue="100"
+        step="1"
+        disabled={false}
+        editableName="Slider6"
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
     </View>
   )
 }
