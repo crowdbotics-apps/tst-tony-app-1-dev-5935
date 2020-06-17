@@ -20,7 +20,7 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View
-      editableName="View2"
+      editableName="View4"
       style={{
         overflow: "visible",
         textAlign: "left",
@@ -33,7 +33,18 @@ export class _Blank extends React.Component {
         borderStyle: "solid",
         backgroundSize: "auto"
       }}
-    />
+    >
+      <Calendar
+        value="mm/dd/yyyy"
+        editableName="Calendar5"
+        style={{
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          borderStyle: "solid"
+        }}
+      />
+    </View>
   )
 }
 
