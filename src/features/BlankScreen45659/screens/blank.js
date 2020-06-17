@@ -20,6 +20,7 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View
+      editableName="View2"
       style={{
         overflow: "visible",
         textAlign: "left",
