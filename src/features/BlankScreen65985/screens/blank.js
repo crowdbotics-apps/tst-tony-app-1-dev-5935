@@ -1,5 +1,5 @@
 import React from "react"
-import { View } from "react-native"
+import { View, Image, ImageBackground } from "react-native"
 import {
   withStyles,
   Text,
@@ -8,8 +8,10 @@ import {
   Radio,
   Toggle,
   Icon,
-  Input
+  Input,
+  Datepicker
 } from "react-native-ui-kitten"
+import Slider from "@react-native-community/slider"
 
 export class _Blank extends React.Component {
   static navigationOptions = {
@@ -20,7 +22,6 @@ export class _Blank extends React.Component {
 
   render = () => (
     <View
-      editableName="View4"
       style={{
         overflow: "visible",
         textAlign: "left",
@@ -34,23 +35,12 @@ export class _Blank extends React.Component {
         backgroundSize: "auto"
       }}
     >
-      <Calendar
-        value="mm/dd/yyyy"
-        editableName="Calendar5"
-        style={{
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          borderStyle: "solid"
-        }}
-      />
       <Slider
-        value="50"
-        minimumValue="0"
-        maximumValue="100"
-        step="1"
+        value={50}
+        minimumValue={0}
+        maximumValue={100}
+        step={1}
         disabled={false}
-        editableName="Slider6"
         style={{
           overflow: "visible",
           textAlign: "left",
